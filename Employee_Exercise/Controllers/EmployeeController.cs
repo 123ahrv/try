@@ -51,6 +51,7 @@ namespace Employee_Exercise.Controllers
         public void ZehaviFunction()
         {
             var response = "hi, it's work!, so amazing!!!";
+            response += "hi its hadassa !!!";
             return response;
         }
     }
