@@ -46,5 +46,12 @@ namespace Employee_Exercise.Controllers
             //};
             employeeService.Add(e);
         }
+
+        [HttpGet]
+        public void ZehaviFunction()
+        {
+            var response = "hi, it's work!, so amazing!!!";
+            return response;
+        }
     }
 }
